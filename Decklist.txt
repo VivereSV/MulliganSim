@@ -1,0 +1,14 @@
+Quickblader,3
+Vanguard,3
+Kunoichi Trainee,3
+Princess Vanguard,3
+Princess Juliet,3
+Albert,3
+Round Table Assembly,1
+Ninja Trainee,3
+Mentor’s Teachings,3
+Palace Fencer,3
+Novice Trooper,3
+Ephemera,3
+Council of Card Knights,3
+Alwida’s Command,3

@@ -1,0 +1,13 @@
+KEEP:Quickblader,Vanguard,Ninja Trainee
+Vanguard:Kunoichi Trainee,Princess Vanguard,Palace Fencer
+Quickblader:Kunoichi Trainee,Princess Vanguard,Palace Fencer
+Ninja Trainee:Kunoichi Trainee,Princess Vanguard,Palace Fencer
+Vanguard,Kunoichi Trainee:Novice Trooper, Princess Juliet
+Vanguard,Princess Vanguard:Novice Trooper, Princess Juliet
+Vanguard,Palace Fencer:Novice Trooper, Princess Juliet
+Quickblader,Kunoichi Trainee:Novice Trooper, Princess Juliet
+Quickblader,Princess Vanguard:Novice Trooper, Princess Juliet
+Quickblader,Palace Fencer:Novice Trooper, Princess Juliet
+Ninja Trainee,Kunoichi Trainee:Novice Trooper, Princess Juliet
+Ninja Trainee,Princess Vanguard:Novice Trooper, Princess Juliet
+Ninja Trainee,Palace Fencer:Novice Trooper, Princess Juliet
