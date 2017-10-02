@@ -33,7 +33,7 @@ SECOND:Elven Princess Mage
 
 Simulations are done with a 50/50 on first/second and 10000 mulligans.
 
-GENERAL GUIDELINES
+GENERAL GUIDELINES FOR MULLIGAN SIM USAGE
 
 Make sure card naming is consistent in your decklist and your conditions
 
