@@ -101,6 +101,11 @@ public class ExpectedBrickValue {
 		while(hand.size() < 4) {
 			hand.add(0, shuffled.remove(0));
 		}
+		//Add mulligan'd cards back to deck and reshuffle
+		while(!discard.isEmpty()) {
+			shuffled.add(discard.remove(0));
+		}
+		shuffled = shuffle(shuffled);
 		hand.add(0, shuffled.remove(0));
 		if(!first) {
 			hand.add(0, shuffled.remove(0));
