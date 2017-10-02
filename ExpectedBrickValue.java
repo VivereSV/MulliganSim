@@ -86,6 +86,7 @@ public class ExpectedBrickValue {
 		else {
 			hand.add("SECOND");
 		}
+		
 		//Figure out which cards to keep
 		for(int j = 0; j < hand.size() - 1; j++) {
 			keepCard[j] = shouldKeep(hand, hand.get(j), conditions);
@@ -104,6 +105,7 @@ public class ExpectedBrickValue {
 		if(!first) {
 			hand.add(0, shuffled.remove(0));
 		}
+		
 		//Score the hand! 
 		//+1 point if you would keep the card, +0 otherwise
 		double EBV = 0.0;
@@ -121,25 +123,15 @@ public class ExpectedBrickValue {
 			if(contains(c.getReqs(), "KEEP") && contains(c.getKeep(), card)) {
 				return true;
 			}
-			if(c.getReqs().length == 2) {
-				String req1 = c.getReqs()[0];
-				String req2 = c.getReqs()[1];
-				if(hand.contains(req1) && hand.contains(req2) && contains(c.getKeep(), card)) {
-					return true;
+			boolean met = true;
+			if(contains(c.getKeep(), card)) {
+				for(int t = 0; t < c.getReqs().length; t++) {
+					if(!hand.contains(c.getReqs()[t])) {
+						met = false;
+					}
 				}
-			}
-			else if(c.getReqs().length == 3) {
-				String req1 = c.getReqs()[0];
-				String req2 = c.getReqs()[1];
-				String req3 = c.getReqs()[2];
-				if(hand.contains(req1) && hand.contains(req2) && hand.contains(req3) && contains(c.getKeep(), card)) {
-					return true;
-				}
-			}
-			else {
-				String req = c.getReqs()[0];
-				if(hand.contains(req) && contains(c.getKeep(), card)) {
-					return true;
+				if(met) {
+					return met;
 				}
 			}
 		}
