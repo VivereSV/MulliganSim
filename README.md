@@ -21,7 +21,7 @@ MULLIGAN RULES FORMATTING
 Conditions:Cards to keep
 
 
-Separate Conditions and Cards to keep with commas
+Separate Conditions and Cards to keep with commas. The comma represents an AND on the conditions side and represents an OR on the cards side.
 
 Example: I want to keep Novice Trooper and Princess Juliet if I have Vanguard and Princess Vanguard
 
@@ -60,5 +60,6 @@ GENERAL GUIDELINES FOR MULLIGAN SIM USAGE
 Make sure card naming is consistent in your decklist and your conditions
 
 
-Do not add impossible conditions such as Vanguard,Quickblader,Ninja Trainee:Albert that will never be fulfilled
+Do not add impossible conditions such as Vanguard,Quickblader,Ninja Trainee,Princess Vanguard,Mentor's Teachings:Albert that will never be fulfilled
 
+HOWEVER, since the calculations include first draw, conditions such as Vanguard,Princess Vanguard,Novice Trooper:Ephemera that will never be true in the mulligan should also be used if they can be true after drawing turn 1.
