@@ -51,7 +51,7 @@ Example: I want to keep Elven Princess Mage if I'm going second
 SECOND:Elven Princess Mage
 
 
-Simulations are done with a 50/50 on first/second and 10000 mulligans.
+Simulations are done with a 50/50 on first/second and 100000 mulligans.
 
 
 GENERAL GUIDELINES FOR MULLIGAN SIM USAGE
